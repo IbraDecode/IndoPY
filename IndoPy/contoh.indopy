@@ -1,0 +1,44 @@
+-- Demo Lengkap IndoPy
+
+tulis("Halo dari IndoPy!")
+
+nama = masukan("Masukkan nama: ")
+tulis("Halo, " + nama)
+
+umur = int(masukan("Umur kamu: "))
+jika umur >= 17:
+    tulis("Kamu sudah cukup umur")
+jika tidak:
+    tulis("Masih di bawah umur")
+
+fungsi sapa(nama):
+    tulis("Salam kenal, " + nama)
+
+pakai math
+tulis("Akar dari 25:", math.sqrt(25))
+
+kelas Manusia:
+    fungsi __init__(self, nama):
+        self.nama = nama
+    fungsi perkenalan(self):
+        tulis("Saya " + self.nama)
+
+orang = Manusia(nama)
+orang.perkenalan()
+
+list_data = [1, 2, 3]
+untuk angka dalam list_data:
+    tulis("Angka:", angka)
+
+counter = 3
+selama counter > 0:
+    tulis("Counter:", counter)
+    counter = counter - 1
+
+coba:
+    nilai = int(masukan("Bagi 10 dengan: "))
+    tulis("Hasil:", 10 / nilai)
+jika error:
+    tulis("Terjadi kesalahan pembagian")
+
+
