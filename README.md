@@ -25,3 +25,4 @@ pip install .
 ```bash
 indopy contoh.indopy
 ```
+## MIT Licensi
